@@ -4,6 +4,7 @@ module Grammarific
   ( Grammar(..)
   , Parser(..)
   , Rule(..)
+  , Matcher(..)
     -- * Evaluation
   , evaluateInitial
     -- * Build
