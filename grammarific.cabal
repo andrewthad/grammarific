@@ -1,0 +1,17 @@
+cabal-version: 3.0
+name: grammarific
+version: 0.1.0.0
+license: BSD-3-Clause
+license-file: LICENSE
+author: Andrew Martin
+maintainer: andrew.thaddeus@gmail.com
+category: Data
+build-type: Simple
+extra-doc-files: CHANGELOG.md
+
+library
+  ghc-options: -Wall
+  exposed-modules: Grammarific
+  build-depends: base >=4.17.1.0
+  hs-source-dirs: src
+  default-language: GHC2021
